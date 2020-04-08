@@ -46,6 +46,10 @@ body{
     padding-bottom: 5em !important;
 }
 
+.m-padded-lr-responsive{
+    padding-left: 4em;
+    padding-right: 4em;
+}
 
 /*-- text --*/
 .m-text{
@@ -80,6 +84,10 @@ body{
     margin-top: 2em !important;
 }
 
+.m-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+
 
 /*---opacity--*/
 .m-opacity-mini{
@@ -108,7 +116,10 @@ body{
     max-width: 72em !important;
     margin: auto !important;
 }
-
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
 
 /*---color---*/
 .m-black{
@@ -127,5 +138,12 @@ body{
     }
     .m-mobile-show{
         display: block !important;
+    }
+    .m-padded-lr-responsive{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .m-mobile-wide{
+        width: 100% !important;
     }
 }
